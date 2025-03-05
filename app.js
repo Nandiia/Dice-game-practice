@@ -109,7 +109,7 @@ let diceNumbe = 0;
 let domeDice = document.querySelector(".dice");
 
 function initGame () {
-    
+
 
     isGameOver = false;
     activePlayer = 0;
@@ -185,7 +185,7 @@ function switchToNextPlayer () {
     currentNumber = 0;
     document.getElementById("current-" + activePlayer).textContent = 0
 
-    if ( scores[activePlayer] >= 10 ){
+    if ( scores[activePlayer] >= 100 ){
 
         isGameOver = true;
 
