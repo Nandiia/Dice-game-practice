@@ -109,6 +109,7 @@ let diceNumbe = 0;
 let domeDice = document.querySelector(".dice");
 
 function initGame () {
+    
 
     isGameOver = false;
     activePlayer = 0;
